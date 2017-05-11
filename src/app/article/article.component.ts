@@ -16,7 +16,8 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  //Delete the article.
+  //Hello,Just for a testing.
   deleteArticle(){
     this.delete.emit(this.item);
   }
