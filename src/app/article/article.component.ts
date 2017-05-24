@@ -10,8 +10,8 @@ export class ArticleComponent implements OnInit {
   @Input()
   item
 
-  @Output()
-  delete = new EventEmitter<any>();
+/*  @Output()
+  delete = new EventEmitter<any>();*/
 
  constructor (private datasvc: DataService){
 
@@ -21,7 +21,7 @@ export class ArticleComponent implements OnInit {
   }
 
   //Delete the article.
-  deleteArticle(){
+/*  deleteArticle(){
     this.delete.emit(this.item);
-  }
+  }*/
 }
